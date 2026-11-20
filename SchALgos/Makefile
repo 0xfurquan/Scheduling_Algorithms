@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -g
 
-TARGET = fcfs
+TARGET = interface
 
-SRCS = fcfs.c taskq.c schFcfs.c sortF.c statsFormat.c schSjf.c
+SRCS = interface.c taskq.c schFcfs.c sortF.c statsFormat.c schSjf.c
 
 OBJS = $(SRCS:.c=.o)
 
